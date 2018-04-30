@@ -1,0 +1,82 @@
+#links{
+    margin: 40px 0px;
+    .image-contain{
+        position: relative;
+        img{
+            position: absolute;
+            top: -108px;
+            left: $mainWidth/2;
+        }
+        
+        i{
+            font-size: 20px;
+            position: absolute;
+            top: -75px;
+            left: 670px;
+            color: $Green;
+            transition: all .5s ease;
+            &:hover{
+                cursor: pointer;
+                top: -70px;
+            }
+        }
+    }
+    .container{
+        .item{
+            @extend .inline-block;
+            width: $mainWidth/2;
+            float:left;
+            padding: 10px 0px;
+            &:hover{
+                .icon-contain{
+                    transition: all .4 ease;
+                    background-color: $LightGreen;
+                    h1{
+                        color: white;
+                    }
+                }
+            }
+            .icon-contain{
+                @extend .inline-block;
+                float: left;    
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                border: 3px solid rgb(219,228,231);
+                margin: 10px auto;
+                margin-right: 20px;
+            }
+            h1{
+                margin: 20px 20px;
+                padding: 20px;
+                text-align: center;
+                font-family: $mainFont;
+                font-size: 2.5em;
+                color: rgb(219,228,231);
+            }
+            h3{
+                margin: 10px auto;
+                padding: 10px 0px;
+                font-family: $mainFont;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: $Green;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    transition: all .4 ease;
+                    color: rgb(66,70,79);
+                }
+            }
+            p{
+                margin: 0px 20px;
+                padding: 0px 0px;
+                text-align: justify;
+                font-family: $mainFont;
+                line-height: 20px;
+                color: rgb(101,137,151);
+            }
+        }
+    }
+}

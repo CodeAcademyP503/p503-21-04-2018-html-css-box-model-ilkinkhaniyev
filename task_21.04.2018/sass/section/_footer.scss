@@ -1,0 +1,30 @@
+#footer{
+    .image-contain{
+        position:relative;
+        img{
+            position: absolute;
+            top: -98px;
+            left: $mainWidth/2;
+        }
+        i{
+            font-size: 20px;
+            position: absolute;
+            top: -67px;
+            left: 670px;
+            color: $Green;
+            transition: all .5s ease;
+            &:hover{
+                cursor: pointer;
+                margin-top: 10px;
+            }
+        }
+    }
+    .container{
+        h6{
+            margin-top: 30px;
+            font-family: $mainFont;
+            color:rgb(66,70,79);
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+#social{
+    height: 70px;
+    background-color: $Green;
+    .image-contain{
+        position:relative;
+        img{
+            position: absolute;
+            top: -68px;
+            left: $mainWidth/2;
+        }
+        i{
+            font-size: 20px;
+            position: absolute;
+            top: -35px;
+            left: 670px;
+            color: white;
+            transition: all .5s ease;
+            &:hover{
+                cursor: pointer;
+                top: -30px;
+            }
+        }
+    }
+    .social-items{
+        position: absolute;
+        width: 100%;
+        i{
+            position: relative;
+            top: 20px;
+            left: 518px;
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            margin: 0px 5px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color: $LightGreen;
+            }
+        }
+    }
+}

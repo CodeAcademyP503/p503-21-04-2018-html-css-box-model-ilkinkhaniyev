@@ -1,0 +1,14 @@
+$Green:rgb(66,183,115);
+$LightGreen:rgb(169,220,86);
+$mainFont:'Ubuntu', sans-serif;
+$mainWidth:1200px;
+
+@import "section/common";
+@import "section/navigation";
+@import "section/links";
+@import "section/about";
+@import "section/services";
+@import "section/gallery";
+@import "section/social";
+@import "section/contacts";
+@import "section/footer";
